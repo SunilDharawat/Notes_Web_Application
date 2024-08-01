@@ -1,0 +1,71 @@
+/* Font for application */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding-top:2%;
+    padding-left: 5%;
+    background-color: #3FA2F6;
+}
+.notes-app h2 .icon {
+   font-size: 50px;
+}
+.notes-app h2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 20px;
+    font-size: 2rem;
+}
+.notes-app button {
+    display: flex;
+    align-content: center;
+    gap: 15px;
+    padding: 10px 40px;
+    margin: 20px;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    background-color: #0F67B1;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: bold;
+}
+.notes-app button:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.notes-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.paragraph {
+    width: 100%;
+    max-width: 600px;
+    min-height: 180px;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px 50px 20px 20px;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    position: relative;
+}
+.delete-icon {
+   position: absolute;
+   width:30px;
+   bottom: 15px;
+   right: 15px;
+   cursor: pointer;
+}
